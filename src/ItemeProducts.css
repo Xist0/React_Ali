@@ -1,0 +1,72 @@
+.I_ItemeProducts{
+    background: linear-gradient(110deg, #FC62FF 18.39%, rgba(255, 0, 92, 0.00) 101.16%);
+    height: 100vh;
+    padding: 40px;
+}
+.I_Iteme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.I_txt{
+
+    font-family: Inder;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: black;
+}
+.I_text{
+    display: flex;
+    /* width: 455px; */
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    margin-top: 5px;
+    margin-left: 10px;
+    
+}
+
+.ImagesGrid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.I_thumbnail{
+    width: 100px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+.I_thumbnail:hover{
+    border: solid 1px red;
+}
+.I_M_thumbnail{
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.i_btn{
+    padding: 20px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.I_card{
+    width: 200px;
+    border-radius: 20px;
+    background: #c01ee9;
+    border: solid 2px rgb(2, 0, 0);
+    cursor: pointer;
+    color: #370238;
+}
+.I_card:hover{
+    background: #c01ee99a;
+    border: solid 2px rgb(254, 118, 232);
+    color: #af09b284;
+}
